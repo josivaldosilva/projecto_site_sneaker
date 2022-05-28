@@ -55,6 +55,14 @@ a {
     flex-direction: column;
 }
 
+@media (max-width: 850px) {
+    .card {
+        flex: 1 1 200px;
+        margin-bottom: 3em;
+    }
+}
+
+
 .card h3 {
     color: var(--primary);
     font-size: 1.5em;
